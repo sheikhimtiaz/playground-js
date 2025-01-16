@@ -42,5 +42,8 @@ const fibonacciLazy = (() => {
   console.log(fibonacciLazy(8)); // Output: 55
   console.log(fibonacciLazy(9)); // Output: 610
   console.log(fibonacciLazy(5));  // Output: 5 (retrieved from cache)
+  // console.log(fibCache[0]); // this is will throw 'not defined' error, IIFE has separate scope and not accessible from global scope
+  
+  
 
   
